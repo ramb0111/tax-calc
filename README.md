@@ -11,15 +11,15 @@ Tax Calculator:
   ```
 
 2. Run Docker Compose
-   ```
-    $ docker-compose up --build
-  ```
+```
+$ docker-compose up --build
+```
 
 #NOTE: Logs will come like this
-  ```
-  2018/09/26 16:04:02 [Postgres Connect] Port: 5432
-  2018/09/26 16:04:02 [API Server] Port: 3000
-  ```
+```
+2018/09/26 16:04:02 [Postgres Connect] Port: 5432
+2018/09/26 16:04:02 [API Server] Port: 3000
+```
 
 ### Requests
 ##POST:

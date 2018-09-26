@@ -1,0 +1,21 @@
+version: '3'
+services:
+  db:
+    build: ./db
+    environment:
+      POSTGRES_DB: tax_calc
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+
+  app:
+    build: ./cmd/api
+    volumes:
+      - .:/go/src/github.com/ramb0111/tax-calc
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    links:
+      - db

@@ -1,0 +1,102 @@
+{
+	"id": "63a6ad71-e8ea-999d-9d30-e73514218b2a",
+	"name": "tax-calc",
+	"description": "",
+	"order": [
+		"5c6843f7-9802-a228-79f1-3bf249073ed1",
+		"5c0f3c63-4885-8da7-1a08-54d99157ada9"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1537975665473,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "5c0f3c63-4885-8da7-1a08-54d99157ada9",
+			"headers": "//name: ankur\n//taxcode: 1\n//amount: 1000\n",
+			"headerData": [
+				{
+					"key": "name",
+					"value": "ankur",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "taxcode",
+					"value": "1",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "amount",
+					"value": "1000",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "localhost:3000/tax/5",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "63a6ad71-e8ea-999d-9d30-e73514218b2a",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:3000/tax/5",
+			"description": "GET : To get all items for userId=5",
+			"descriptionFormat": "html",
+			"time": 1537975811842,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n \"name\" : \"anky\",\n \"taxcode\" : 3,\n \"amount\" : 10\n}"
+		},
+		{
+			"id": "5c6843f7-9802-a228-79f1-3bf249073ed1",
+			"headers": "//name: ankur\n//taxcode: 1\n//amount: 1000\n",
+			"headerData": [
+				{
+					"key": "name",
+					"value": "ankur",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "taxcode",
+					"value": "1",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "amount",
+					"value": "1000",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "localhost:3000/tax/5",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "63a6ad71-e8ea-999d-9d30-e73514218b2a",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:3000/tax/5",
+			"description": "POST : To create an item",
+			"descriptionFormat": "html",
+			"time": 1537975737728,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n \"name\" : \"anky\",\n \"taxcode\" : 3,\n \"amount\" : 1000\n}"
+		}
+	]
+}

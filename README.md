@@ -15,14 +15,14 @@ Tax Calculator:
 $ docker-compose up --build
 ```
 
-#NOTE: Logs will come like this
+# NOTE: Logs will come like this
 ```
 2018/09/26 16:04:02 [Postgres Connect] Port: 5432
 2018/09/26 16:04:02 [API Server] Port: 3000
 ```
 
 ### Requests
-##POST:
+## POST:
   ```
   http://localhost:3000/tax/5
   
@@ -40,7 +40,7 @@ $ docker-compose up --build
 
   ```
 
-##GET:
+## GET:
   ```
   http://localhost:3000/tax/5
 
